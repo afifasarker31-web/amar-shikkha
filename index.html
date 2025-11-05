@@ -1,20 +1,36 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bn">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>আমার শিক্ষা</title>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>বেগম আশরাফুন নাহার নূরানী ও হাফিজিয়া মাদ্রাসা - প্রশাসনিক প্যানেল</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>⭐⭐ আমার শিক্ষা সফটওয়্যার ⭐⭐</h1>
-  <ul>
-    <li>ছাত্র-ছাত্রীদের বিস্তারিত বায়োডাটা</li>
-    <li>হাজিরা, ফি, রেজাল্ট, রুটিন</li>
-    <li>অফিসার বায়োডাটা ও স্যালারি সিস্টেম</li>
-    <li>এস.এম.এস নোটিফিকেশন</li>
-    <li>ফ্রি ওয়েবসাইট ইন্টিগ্রেশন</li>
-  </ul>
-  <p>© 2025 Amar Shikkha Project</p>
+  <div class="wrap">
+    <header><h1>বেগম আশরাফুন নাহার নূরানী ও হাফিজিয়া মাদ্রাসা — প্রশাসনিক প্যানেল</h1></header>
+    <main>
+      <section>
+        <h2>ছাত্র/ছাত্রী তালিকা</h2>
+        <button id="loadStudents">স্টুডেন্ট লোড করুন</button>
+        <table id="stuTable" border="1" cellpadding="6" style="width:100%;margin-top:8px"></table>
+      </section>
+
+      <section style="margin-top:12px">
+        <h2>শিক্ষক ও বেতন পরিচালনা</h2>
+        <form id="teacherForm">
+          <label>শিক্ষকের নাম<input id="tname" required placeholder="শিক্ষকের পূর্ণ নাম"></label>
+          <label>মাসিক বেতন (BDT)<input id="tsalary" type="number" required placeholder="উদাহরণ: 10000"></label>
+          <button type="button" id="addTeacher">শিক্ষক যোগ করুন</button>
+        </form>
+        <div id="teachersList" style="margin-top:8px"></div>
+      </section>
+
+      <section style="margin-top:12px">
+        <h2>রিপোর্ট ও এক্সপোর্ট</h2>
+        <button id="exportData">ডেটা এক্সপোর্ট (JSON)</button>
+      </section>
+    </main>
+    <footer>© বেগম আশরাফুন নাহার নূরানী ও হাফিজিয়া মাদ্রাসা — প্রশাসন</footer>
+  </div>
+<script src="admin.js"></script>
 </body>
 </html>

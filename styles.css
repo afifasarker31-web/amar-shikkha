@@ -1,0 +1,10 @@
+body{font-family: 'Noto Sans Bengali', Arial, sans-serif;background:#f6f9fc;color:#111;padding:16px}
+.wrap{max-width:720px;margin:0 auto;background:#fff;padding:18px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+header h1{margin:0 0 4px;font-size:20px}
+header .sub{margin:0 0 12px;color:#333}
+label{display:block;margin:8px 0}
+input,select{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px}
+.actions{margin-top:10px;display:flex;gap:8px}
+button{padding:8px 10px;border:0;background:#0b5cff;color:#fff;border-radius:6px;cursor:pointer}
+#msg{margin-top:12px;padding:10px;border-radius:6px;background:#eef}
+footer{text-align:center;margin-top:12px;color:#666;font-size:13px}
